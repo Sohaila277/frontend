@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="task3.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <div class="firstname">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="lastname">
+            <label for="lastName">Last   
+                  Name:</label>
+            <input type="text" id="lastName" name="lastName" required>   
+    
+          </div>
+        </div>
+        <div class="form-group2">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <label for="queryType">Query   
+          Type:</label>
+        <div class="form-group3">
+          <input type="radio" id="generalEnquiry" name="queryType" value="General Enquiry">
+          <label for="generalEnquiry">General Enquiry</label>
+          <input type="radio" id="supportRequest" name="queryType" value="Support Request">
+          <label for="supportRequest">Support Request</label>
+        </div>
+        <div class="form-group4">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <input type="checkbox" id="consent" name="consent">
+        <label for="consent">I consent to being contacted by the team</label>
+      <button type="submit">Submit</button>
+      
+
+
+
+
+
+        </form>
+   
+      </div>
+    </body>
+    </html>
